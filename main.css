@@ -1,0 +1,67 @@
+.mainCalc {
+  border: 5px solid black;
+  border-radius: 50px;
+  height: 90vh;
+  margin-top: 5vh;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.outputarea {
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 1vh;
+  height: 15vh;
+}
+
+.parea {
+  padding-top: 5vh;
+  padding-left: 3vh;
+  font-size: 3vh;
+  border: none;
+}
+
+.btnsdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10vh;
+  margin: 10px;
+  font-size: 2vh;
+}
+
+.btna {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  width: 12vh;
+  height: 12vh;
+  font-size: 2.25vh;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+}
+
+.btna:hover {
+  box-shadow: none;
+}
+
+.btnaequals {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  width: 51.1vh;
+  height: 12vh;
+  font-size: 2.25vh;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2vh;
+}
